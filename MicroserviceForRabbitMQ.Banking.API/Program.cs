@@ -1,7 +1,9 @@
 using MicroserviceForRabbitMQ.Banking.Application.Interfaces;
+using MicroserviceForRabbitMQ.Banking.Application.Models;
 using MicroserviceForRabbitMQ.Banking.Data.Context;
 using MicroserviceForRabbitMQ.Infra.IoC;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,6 +40,11 @@ app.UseHttpsRedirection();
 app.MapGet("/api/banking/accounts", (IAccountService accountService) =>
 {
     return accountService.GetAccounts();
+});
+
+app.MapPost("/api/banking/accounts", ([FromBody] AccountTransfer accountTransfer, IAccountService accountService) =>
+{
+    accountService.Transfer(accountTransfer, accountTransfer.TransferAmount);
 });
 
 app.UseSwagger();

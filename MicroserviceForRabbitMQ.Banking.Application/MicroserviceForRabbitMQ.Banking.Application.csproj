@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MicroserviceForRabbitMQ.Banking.Domain\MicroserviceForRabbitMQ.Banking.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

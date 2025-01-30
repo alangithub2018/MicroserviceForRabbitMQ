@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{0F71B3D6-EB3F-4F5D-AA81-54A7F418D23D}"
 EndProject
@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceForRabbitMQ.Tra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceForRabbitMQ.Transfer.Domain", "MicroserviceForRabbitMQ.Transfer.Domain\MicroserviceForRabbitMQ.Transfer.Domain.csproj", "{0AE888E8-38C6-4126-AA06-5558459190C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceForRabbitMQ.MVC", "MicroserviceForRabbitMQ.MVC\MicroserviceForRabbitMQ.MVC.csproj", "{9664AE91-5E01-4435-B024-B7472D4F5057}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{0AE888E8-38C6-4126-AA06-5558459190C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AE888E8-38C6-4126-AA06-5558459190C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AE888E8-38C6-4126-AA06-5558459190C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9664AE91-5E01-4435-B024-B7472D4F5057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9664AE91-5E01-4435-B024-B7472D4F5057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9664AE91-5E01-4435-B024-B7472D4F5057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9664AE91-5E01-4435-B024-B7472D4F5057}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,5 +137,6 @@ Global
 		{CF23BCAC-11FD-4C20-B27A-60AD9C204B7E} = {4841B7BC-893A-470F-9409-956EBD72FC30}
 		{BCA5F03F-59FF-4D1E-B0F8-33CA46F5A5F7} = {09B0FCC3-0E4E-49A5-9C90-3486FF87E8E3}
 		{0AE888E8-38C6-4126-AA06-5558459190C9} = {28AE6AAD-5E28-4F8A-93E9-62FB2C78369C}
+		{9664AE91-5E01-4435-B024-B7472D4F5057} = {0BBCA350-3754-44E4-A971-C2D640260252}
 	EndGlobalSection
 EndGlobal

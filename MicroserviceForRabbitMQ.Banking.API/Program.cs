@@ -2,7 +2,6 @@ using MicroserviceForRabbitMQ.Banking.Application.Interfaces;
 using MicroserviceForRabbitMQ.Banking.Application.Models;
 using MicroserviceForRabbitMQ.Banking.Data.Context;
 using MicroserviceForRabbitMQ.Infra.IoC;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
